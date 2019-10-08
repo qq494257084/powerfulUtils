@@ -1,6 +1,7 @@
 package test;
 
 import com.lyl.utils.format.FormatUtils;
+import com.lyl.utils.text.StringUtils;
 
 import java.util.Arrays;
 
@@ -13,9 +14,14 @@ import java.util.Arrays;
 public class Test {
 
     public static void main(String[] args) {
-        fileFormatTest();
+        utilTest();
     }
-    public static void fileFormatTest(){
+
+    public static void fileFormatTest() {
         System.out.println(Arrays.toString(FormatUtils.fileFormat("C:\\Program Files (x86)\\Adobe\\Adobe Creative Cloud Experience\\Resources\\panels\\com.adobe.ccx.fnft-2.5.1\\Contents\\images\\indicators\\dots.gif")));
+    }
+
+    public static void utilTest(){
+        System.out.println(StringUtils.isBlank(" "));
     }
 }

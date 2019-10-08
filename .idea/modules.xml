@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/powerfullUtils.iml" filepath="$PROJECT_DIR$/powerfullUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/powerfulUtils.iml" filepath="$PROJECT_DIR$/powerfulUtils.iml" />
     </modules>
   </component>
 </project>
